@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: bk-discovery-service
+      uri: http://localhost:8081
+      username: configUser
+      password: configPassword     
