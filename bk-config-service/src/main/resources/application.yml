@@ -4,14 +4,6 @@ spring:
       server:
         git:
           uri: https://github.com/abalasu1/book-app-config.git
-  security:
-    user:
-      name: admin
-      password: s3cr3t
 
-management:
-  security:
-    role: SYSTEM         
-  
 server:
   port: 8001
