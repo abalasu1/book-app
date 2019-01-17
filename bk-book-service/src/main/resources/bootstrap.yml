@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: bk-book-service
   cloud:
     config:
       name: bk-book-service

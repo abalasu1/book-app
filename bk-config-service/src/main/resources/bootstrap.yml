@@ -1,15 +1,3 @@
 spring:
   application:
-    name: bk-config-service
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-    enabled-by-default: true
-
-  metrics:
-    tags:
-      application: ${spring.application.name}
-      environment: prod    
+    name: bk-config-service   
