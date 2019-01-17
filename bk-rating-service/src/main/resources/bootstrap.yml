@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: bk-rating-service
+  cloud:
+    config:
+      name: bk-rating-service
+      uri: http://localhost:8001
