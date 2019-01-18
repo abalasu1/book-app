@@ -4,6 +4,11 @@ spring:
       server:
         git:
           uri: https://github.com/abalasu1/book-app-config.git
+  security:
+    user:
+      name: admin
+      password: password
+      role: administrator          
 
 server:
   port: 8001
@@ -17,4 +22,4 @@ management:
   metrics:
     tags:
       application: ${spring.application.name}
-      environment: prod   
+      environment: prod
